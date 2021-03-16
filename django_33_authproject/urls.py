@@ -20,4 +20,7 @@ from testapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home_page_view),
+    path('java/', views.java_exams_view),
+    path('python/', views.python_exams_view),
+    path('aptitude/', views.aptitude_exams_view),
 ]
